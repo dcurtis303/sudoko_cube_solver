@@ -1,1 +1,1 @@
-# sudoko_cube_solver
+# sudoku_cube_solver
