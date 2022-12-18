@@ -1,5 +1,6 @@
 #pragma once
 
+// 9 * 6 = 54, 3 * 8 + 12 * 2 + 6 = 54
 // 6 faces
 // 9 squares per face
 // 3 types of pieces; center, edge, and corner
@@ -17,21 +18,20 @@
 #define CENTERS 6
 
 
+enum ORIENTATION {
+    _0, _90, _180, _270
+};
+
 struct corner {
-    unsigned int n[3];
+    int n[3];
+    //ORIENTATION orientation[3];
 };
 
 struct edge {
-    unsigned int n[2];
+    int n[2];
+    //ORIENTATION orientation[2];
 };
 
 struct center {
-    unsigned int n;
+    int n;
 };
-
-/** possibly outside scope of project
-enum ORIENTATION {
-    ORIENTATION_0, ORIENTATION_90, ORIENTATION_180, ORIENTATION_270
-};
-**/
-
