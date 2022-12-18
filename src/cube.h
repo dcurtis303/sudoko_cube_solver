@@ -35,3 +35,7 @@ struct edge {
 struct center {
     int n;
 };
+
+extern corner corners[];
+extern edge edges[];
+extern center centers[];
