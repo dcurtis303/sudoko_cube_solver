@@ -1,4 +1,5 @@
 #include "map.h"
+#include "rl_cube.h"
 
 void map::fill_map(void)
 {

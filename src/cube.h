@@ -40,7 +40,3 @@ struct face
     edge m_edges[4];
     center m_center;
 };
-
-extern corner rl_corners[];
-extern edge rl_edges[];
-extern center rl_centers[];

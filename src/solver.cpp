@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 #include "cube.h"
+#include "rl_cube.h"
 #include "map.h"
 
 map current_map;

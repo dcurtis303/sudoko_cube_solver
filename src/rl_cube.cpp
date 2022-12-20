@@ -1,4 +1,4 @@
-#include "cube.h"
+#include "rl_cube.h"
 
 corner rl_corners[CORNERS] = {
     4, 8, 4, //_0, _0, _0,
