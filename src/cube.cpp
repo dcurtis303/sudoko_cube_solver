@@ -1,6 +1,6 @@
 #include "cube.h"
 
-corner corners[CORNERS] = {
+corner rl_corners[CORNERS] = {
     4, 8, 4, //_0, _0, _0,
     9, 5, 1, //_0, _0, _0,
     7, 6, 3, //_180, _0, _0,
@@ -11,7 +11,7 @@ corner corners[CORNERS] = {
     5, 1, 9
 };
 
-edge edges[EDGES] = {
+edge rl_edges[EDGES] = {
     9, 8,
     2, 4,
     9, 6,
@@ -26,7 +26,7 @@ edge edges[EDGES] = {
     8, 8
 };
 
-center centers[CENTERS] = {
+center rl_centers[CENTERS] = {
     1, 
     4, 
     5, 

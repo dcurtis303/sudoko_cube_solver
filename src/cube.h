@@ -41,6 +41,6 @@ struct face
     center m_center;
 };
 
-extern corner corners[];
-extern edge edges[];
-extern center centers[];
+extern corner rl_corners[];
+extern edge rl_edges[];
+extern center rl_centers[];
