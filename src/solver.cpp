@@ -32,7 +32,7 @@ void count_faces()
         if (i != 8)
             printf("%d, ", counts[i]);
         else
-            printf("%d\n\n\n ", counts[i]);
+            printf("%d\n", counts[i]);
 
 }
 

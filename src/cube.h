@@ -11,12 +11,10 @@
 // a edges will have 2 faces
 // a corner will have 3 faces
 
-
-
 #define CORNERS 8
 #define EDGES 12
 #define CENTERS 6
-
+#define FACES 6
 
 enum ORIENTATION {
     _0, _90, _180, _270
@@ -34,6 +32,13 @@ struct edge {
 
 struct center {
     int n;
+};
+
+struct face
+{
+    corner m_corners[4];
+    edge m_edges[4];
+    center m_center;
 };
 
 extern corner corners[];
